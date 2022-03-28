@@ -1,0 +1,21 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">ID</th>
+      <th scope="col">Date</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let comments of commetsData">
+    <tr >
+      <th scope="row">{{comments.name}}</th>
+      <th scope="row">{{comments.email}}</th>
+      <th scope="row">{{comments.movie_id}}</th>
+      <th scope="row">{{comments.date}}</th>
+
+
+    </tr>
+
+  </tbody>
+</table>
