@@ -1,0 +1,26 @@
+.header
+{
+  background-color: black;
+  height: 50px;
+}
+.body
+{
+  border: solid 5px;
+}
+.top-content
+{
+  background-color: green;
+  height: 200px;
+}
+.cards-container
+{
+  display: flex;
+  justify-content: space-around;
+
+}
+.card{
+  height: 200px;
+  width: 200px;
+  box-shadow: 10cm;
+  text-align: center;
+}

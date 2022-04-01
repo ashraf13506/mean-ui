@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto:wght@100;300&display=swap');
+.container
+{
+  border:5px solid #ffcc5c;
+  display:flex;
+  // justify-content: flex-end;
+  display: inline-block;
+  width: 30%;
+
+}
+// .home
+// {
+//   margin-right: auto;
+// }
+.container > div{
+  flex:1
+}
+
+h1{
+  font-family: 'Hurricane', cursive;
+
+}
+
+.content
+{
+  // height: 100%;
+  // width: 100%;
+  // background-color: #ffcc5c;
+  // clip-path: polygon(20% 0%, 100% 1%, 79% 49%, 100% 74%, 55% 100%, 20% 100%, 0 100%, 0 0);
+  // position: absolute;
+  // z-index: -1;
+
+
+  // height: 100%;
+
+  // background: rgb(70,184,164);
+  // background: radial-gradient(circle,rgba(70,184,167,1) 0%m
+  // rgba(55,80,219,1),100%);
+}
+

@@ -5,7 +5,8 @@ import {HttpClient}  from '@angular/common/http'
   providedIn: 'root'
 })
 export class CommentsServiceService {
-  private COMMENTS_URL="http://localhost:3000/comments";
+
+  private COMMENTS_URL="http://localhost:3000/comments?page=10&limit=10";
 
   constructor(private _http:HttpClient) {
 }

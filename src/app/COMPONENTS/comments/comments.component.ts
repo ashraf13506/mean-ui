@@ -14,8 +14,10 @@ export class CommentsComponent implements OnInit {
 
   ngOnInit(): void {
 
-    let $subscribedData=this._comment.getAllComments().pipe(take(10))
-    $subscribedData.subscribe((comments=>{
+
+    this._comment.getAllComments().pipe(take(10))
+
+    .subscribe((comments=>{
       console.log(comments)
       this.commetsData=comments;
     }))

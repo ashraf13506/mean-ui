@@ -6,9 +6,9 @@ import { UserResolverResolver } from './SERVICES/user-resolver.resolver';
 const routes: Routes = [{
   path:'table',
   component:CommentsComponent,
-  resolve:{
-    UserResolverResolver
-  }
+  // resolve:{
+  //   UserResolverResolver
+  // }
 
 }];
 
